@@ -10,28 +10,6 @@ A robust API rate limiter built with Node.js, Express, and Redis that implements
 - **Clean API Responses**: Proper HTTP status codes and error messages
 - **Test Coverage**: Comprehensive unit tests with Jest and Supertest
 
-## Project Structure
-
-```
-rate-limiter-api/
-├── src/                # Source code
-│   ├── app.js          # Main application entry point
-│   ├── config/         # Configuration files
-│   │   ├── redis.js    # Redis connection setup
-│   │   └── config.js   # Environment configuration
-│   ├── middleware/     # Middleware functions
-│   │   └── rateLimiter.js # Core rate limiting logic
-│   └── routes/         # API route definitions
-│       └── api.js      # API endpoint definitions
-├── tests/              # Test files
-│   └── api.test.js     # Automated tests
-├── package.json        # Project dependencies
-├── .env                # Environment variables
-├── .env.example        # Environment template
-├── .gitignore          # Git ignore rules
-└── README.md           # Documentation
-```
-
 ## Quick Start
 
 ### Prerequisites
