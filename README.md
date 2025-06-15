@@ -148,22 +148,6 @@ Connect to Redis CLI:
 redis-cli
 ```
 
-### Common Redis Commands
-
-```bash
-# List all rate limit keys
-127.0.0.1:6379> KEYS rate_limit:*
-
-# Check current count for localhost (IPv6)
-127.0.0.1:6379> GET rate_limit:::1
-
-# Check time remaining until reset
-127.0.0.1:6379> TTL rate_limit:::1
-
-# Monitor all Redis operations in real-time
-127.0.0.1:6379> MONITOR
-```
-
 ## Redis Command Reference
 
 ### 🎯 Essential Redis Commands
